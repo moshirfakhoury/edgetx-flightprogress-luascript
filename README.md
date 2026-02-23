@@ -30,8 +30,11 @@ Records start time, end time, total duration, and flags valid flights (>60 secon
 Select a 3-digit maneuver ID (000–999) to record what you are practicing during that flight.
 
 You can also use the RS slider for quick control:
+
 • Top position → records Maneuver 1
+
 • Middle position → records Maneuver 2
+
 • Bottom position → records 0 (no maneuver)
 
 The bottom position is useful for free-flying sessions, allowing flights without a practice focus to be logged cleanly without changing the Lua Setup page.
@@ -71,11 +74,9 @@ This is ideal for bench testing, setup, or maintenance work where motors may run
 Logging automatically resumes as soon as the button is released.
 
 - Log File Format
-Each line contains:
-ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType,SrvFltNbr
+Each line contains: ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType,SrvFltNbr
 
-- Example:
-MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z,0
+Example: MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z,0
 
 - Update Summary Data
 A single button updates your live flight data into one summary line per year. This keeps the widgets fast and responsive with no delays, while preserving your complete flight history in the main model file.
