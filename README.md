@@ -27,17 +27,16 @@ Each model uses its own modelname.txt file for completely independent tracking. 
 Records start time, end time, total duration, and flags valid flights (>60 seconds).
 
 - Maneuver tracking
-Select a 3-digit maneuver ID (000–999) to record what you are practicing during that flight.
+  Select a 3-digit maneuver ID (000–999) to record what you are practicing during that flight.
 
-You can also use the RS slider for quick control:
+  You can also use the RS slider for quick control:
+  - Top position → records Maneuver 1
+    
+  - Middle position → records Maneuver 2
+    
+  - Bottom position → records 0 (no maneuver)
 
-• Top position → records Maneuver 1
-
-• Middle position → records Maneuver 2
-
-• Bottom position → records 0 (no maneuver)
-
-The bottom position is useful for free-flying sessions, allowing flights without a practice focus to be logged cleanly without changing the Lua Setup page.
+    The bottom position is useful for free-flying sessions, allowing flights without a practice focus to be logged cleanly without changing the Lua Setup page.
 
 - Yearly flight target
 Set a 3-digit yearly flight goal that is stored with every log entry for progress tracking and analysis.
