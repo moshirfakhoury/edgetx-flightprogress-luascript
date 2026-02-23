@@ -2,6 +2,7 @@ Flight Progress – EdgeTX Flight Logger
 
 
 Overview:
+
 Flight Progress is a lightweight EdgeTX toolset that automatically records flight activity for each model and saves it to a simple text log file on the transmitter’s SD card.
 It tracks when your motor (and optional arm switch) becomes active, logs the flight duration, and stores useful session data such as date, start time, end time, flight duration, maneuver being practiced, model maintenance and crash events. The goal is to give pilots an easy way to review flying time, practice progress, historical totals, and incidents without needing any external software.
 Each model automatically maintains its own log file, making it ideal for tracking multiple aircraft independently.
@@ -11,6 +12,7 @@ All logging and configuration happens directly on the transmitter — no PC or e
 
 
 Included Widgets
+
 The Flight Progress Lua is a complete package that includes five powerful widgets: Flight Stats, Model Count Comparison, Crash Tracker, Maneuver Tracker, and Maintenance Tracker. Each widget provides clear, real-time insight into your flying activity, progress, reliability, and service status, helping you monitor and manage your model with ease. You can also filter by year to view detailed statistics and history for any specific year.
 
 
@@ -89,21 +91,31 @@ Everything runs directly on the radio. No PC, scripts, or external software requ
 
 Included Widgets:
 Flight Progress includes five dedicated widgets:
+
 • Flight Stats
+
 • Model Count Comparison
+
 • Crash Tracker
+
 • Maneuver Tracker
+
 • Maintenance Tracker
+
 
 These widgets provide clear visual insight into flying activity, progress, reliability, and maintenance status.
 All widgets support optional year filtering, allowing you to view statistics for a specific year or lifetime totals.
+
 
 Log File Format:
 - Each line contains: ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType
 - Example: MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z
 
+
 Widgets Overview:
+
 Flight Progress includes five powerful widgets that give you real-time insight into your flying, training, crashes, and maintenance. Each widget reads directly from your model’s Flight Progress log files and updates automatically. These widgets can be added to any EdgeTX screen and customised by year where applicable.
+
 
 1. Model Stats Widget (fltprgW1)
 The Model Stats widget provides a complete statistical overview of your model’s activity.
@@ -126,8 +138,10 @@ It displays:
 The current year flight target is read directly from your radio’s Flight Progress configuration.
 This widget gives you an instant overview of your model’s performance and progress.
 
+
 2. Model Comparison Widget (fltprgW2)
 This widget lets you compare up to 9 models side-by-side. You can view lifetime totals or filter the data by a specific year. All information is read automatically from each model’s Flight Progress log files.
+
 
 3. Crash Tracker Widget (fltprgW3)
 The Crash Tracker widget provides a detailed view of your model’s crash history. You can view lifetime totals or filter by a specific year. This makes it easy to spot trends, review recent incidents, and compare your crash rate year-to-year.
@@ -137,6 +151,7 @@ It displays:
 - Crash percentage based on total flights
 - Current year crash total compared with last year
 - The date and time of the last 10 crashes, shown in order with the most recent first
+
 
 4. Maneuver Tracker Widget (fltprgW4)
 The Maneuver Tracker widget tracks your training progress across all maneuvers. This helps you see how much of your flying is dedicated to structured training. Perfect for pilots working toward certifications or improving skills.
@@ -149,6 +164,7 @@ It displays:
 - Total maneuver flights
 - Total flights
 - Practice percentage
+
 
 5. Maintenance Tracker Widget (fltprgW5)
 The Maintenance Tracker widget helps ensure your model is serviced on time. This helps prevent mechanical failures and keeps your model reliable.
@@ -165,20 +181,26 @@ It tracks:
 - Writes to Global Variable 6 FM0, allowing you to use logical switches and special functions to trigger reminders.
 Value meanings: 0 = no service due, 2 = service due soon, 1 = service overdue.
 
+
 Data Storage & Performance:
 Flight Progress stores data separately for each model, ensuring completely independent tracking, maximum performance, and full history preservation. All files are created and managed automatically.
+
 
 Master Flight Log:
 Each model records every flight in its own ModelName.txt file. This is the permanent master log and contains complete flight details including date, duration, maneuver, crashes, and targets. This file is never modified, ensuring your full flight history is always preserved.
 
+
 Yearly Summary File:
 Flight Progress maintains a live summary file called ModelName_S.txt. Widgets read this file to display totals instantly without needing to scan the full log. When the Update Summary Data button is pressed, this file is overwritten and rebuilt into one summary line per year. This keeps widget performance fast while your complete history remains safely stored in the master log.
+
 
 Operations File:
 The ModelName_O.txt file stores crashes, maintenance, and historical entries. This includes crash dates and times, service records, and manually entered history. This allows accurate crash tracking, maintenance scheduling, and correct lifetime totals.
 
+
 Maneuver Summary File:
 The ModelName_M.txt file stores summarized maneuver data, including total flights, total duration, and the last performed date for each maneuver. This allows the Maneuver Tracker widget to load instantly and display lifetime or yearly maneuver progress without delay.
+
 
 Installation:
 - Download the FlightProgressPack ZIP file file
