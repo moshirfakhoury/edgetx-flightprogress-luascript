@@ -18,99 +18,88 @@ The Flight Progress Lua is a complete package that includes five powerful widget
 
 Features:
 - Automatic flight detection
-Starts and stops logging automatically based on motor and optional arm switch positions. Arm and motor switches and on positions are fully configurable. 
+  Starts and stops logging automatically based on motor and optional arm switch positions. Arm and motor switches and on positions are fully configurable. 
 
 - Per-model log files
-Each model uses its own modelname.txt file for completely independent tracking. Data is organised across four files to ensure the widgets remain fast and responsive.
+  Each model uses its own modelname.txt file for completely independent tracking. Data is organised across four files to ensure the widgets remain fast and responsive.
 
 - Flight time tracking
-Records start time, end time, total duration, and flags valid flights (>60 seconds).
+  Records start time, end time, total duration, and flags valid flights (>60 seconds).
 
 - Maneuver tracking
   Select a 3-digit maneuver ID (000–999) to record what you are practicing during that flight.
 
   You can also use the RS slider for quick control:
   - Top position → records Maneuver 1
-    
   - Middle position → records Maneuver 2
-    
   - Bottom position → records 0 (no maneuver)
 
-    The bottom position is useful for free-flying sessions, allowing flights without a practice focus to be logged cleanly without changing the Lua Setup page.
+  The bottom position is useful for free-flying sessions, allowing flights without a practice focus to be logged cleanly without changing the Lua Setup page.
 
 - Yearly flight target
-Set a 3-digit yearly flight goal that is stored with every log entry for progress tracking and analysis.
+  Set a 3-digit yearly flight goal that is stored with every log entry for progress tracking and analysis.
 
 - Crash logging
-One-button crash entry that instantly appends a crash record without editing previous lines (safe and memory efficient).
+  One-button crash entry that instantly appends a crash record without editing previous lines (safe and memory efficient).
 
 - Maintenance logging
-One-button maintenance entry that instantly appends a service record with date and time without editing previous lines.
-Supports selectable service types including Full Service, Part Service, Inspection Only, and Crash Repair for accurate maintenance history tracking.
+  One-button maintenance entry that instantly appends a service record with date and time without editing previous lines.
+  Supports selectable service types including Full Service, Part Service, Inspection Only, and Crash Repair for accurate maintenance history tracking.
 
 - Historical flight entry
-Dedicated “Enter Flight History” page allows manual backfilling of past data:
+  Dedicated “Enter Flight History” page allows manual backfilling of past data:
   - Date (YYYY-MM)
   - Number of flights
   - Total duration (seconds)
   - Crash count
   - Yearly target for that period
 
-Entries are appended as historical records so older seasons or months can be added without affecting live logs.
+  Entries are appended as historical records so older seasons or months can be added without affecting live logs.
 
 - Line type tagging
-Each log row is tagged with a line type:
+  Each log row is tagged with a line type:
   - L = Live (automatic or crash events)
   - H = Historical (manual entries)
   - S = Service (manual entries)
   - C = Crash (manual entries)
-This makes filtering and analysis in spreadsheets easy.
+  This makes filtering and analysis in spreadsheets easy.
 
 - Maintenance mode (6POS5)
-The radio’s 6POS5 panel button temporarily disables all flight logging.
-While active, the Functions script ignores motor/arm activity and no entries are written to the log file.
-This is ideal for bench testing, setup, or maintenance work where motors may run briefly and you don’t want extra log lines.
-Logging automatically resumes as soon as the button is released.
+  The radio’s 6POS5 panel button temporarily disables all flight logging.
+  While active, the Functions script ignores motor/arm activity and no entries are written to the log file.
+  This is ideal for bench testing, setup, or maintenance work where motors may run briefly and you don’t want extra log lines.
+  Logging automatically resumes as soon as the button is released.
 
 - Log File Format
-Each line contains: ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType,SrvFltNbr
-
-Example: MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z,0
+  - Each line contains: ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType,SrvFltNbr
+  - Example: MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z,0
 
 - Update Summary Data
-A single button updates your live flight data into one summary line per year. This keeps the widgets fast and responsive with no delays, while preserving your complete flight history in the main model file.
+  A single button updates your live flight data into one summary line per year. This keeps the widgets fast and responsive with no delays, while preserving your complete flight history in the main model file.
 
 - Append-only & safe
-No file editing, parsing, or rewriting — only appending. This maximizes reliability and minimizes SD wear.
+  No file editing, parsing, or rewriting — only appending. This maximizes reliability and minimizes SD wear.
 
 - Low memory footprint
-Designed specifically for EdgeTX radios — no large file parsing or heavy processing.
+  Designed specifically for EdgeTX radios — no large file parsing or heavy processing.
 
 - Fully transmitter-side
-Everything runs directly on the radio. No PC, scripts, or external software required.
+  Everything runs directly on the radio. No PC, scripts, or external software required.
 
-Included Widgets:
-Flight Progress includes five dedicated widgets:
+- Included Widgets:
+  - Flight Progress includes five dedicated widgets:
+  - Flight Stats
+  - Model Count Comparison
+  - Crash Tracker
+  - Maneuver Tracker
+  - Maintenance Tracker
 
-• Flight Stats
+  These widgets provide clear visual insight into flying activity, progress, reliability, and maintenance status.
+  All widgets support optional year filtering, allowing you to view statistics for a specific year or lifetime totals.
 
-• Model Count Comparison
-
-• Crash Tracker
-
-• Maneuver Tracker
-
-• Maintenance Tracker
-
-
-These widgets provide clear visual insight into flying activity, progress, reliability, and maintenance status.
-All widgets support optional year filtering, allowing you to view statistics for a specific year or lifetime totals.
-
-
-Log File Format:
-- Each line contains: ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType
-- Example: MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z
-
+- Log File Format:
+  - Each line contains: ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType
+  - Example: MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z
 
 Widgets Overview:
 
