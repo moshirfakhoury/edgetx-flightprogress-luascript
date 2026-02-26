@@ -218,7 +218,7 @@ Configure the below Steps for each model:
 - Click Edit
 - Enable FM2 to FM8
 
-<img width="478" height="270" alt="image" src="https://github.com/user-attachments/assets/da68810b-fd2b-419a-ace6-c5be95005bd1" />
+<img width="479" height="271" alt="image" src="https://github.com/user-attachments/assets/e6073256-6d48-4aff-a683-590a11180cd2" />
 
 <img width="478" height="271" alt="image" src="https://github.com/user-attachments/assets/de3e2254-1123-429c-87a4-0e4c16a9bb3a" />
 
