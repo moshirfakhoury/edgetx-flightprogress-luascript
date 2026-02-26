@@ -86,6 +86,8 @@ The Flight Progress Lua is a complete package that includes five powerful widget
 - Fully transmitter-side
   Everything runs directly on the radio. No PC, scripts, or external software required.
 
+- Sound files included in the zip file
+
 - Included Widgets:
   Flight Progress includes five dedicated widgets:
   - Flight Stats
