@@ -1,6 +1,4 @@
-**CODE WILL BE RELEASED SOON**
-
-Flight Progress – EdgeTX Flight Logger
+**Flight Progress – EdgeTX Flight Logger**
 
 
 **Overview:**
