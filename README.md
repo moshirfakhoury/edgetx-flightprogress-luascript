@@ -1,7 +1,7 @@
 Flight Progress – EdgeTX Flight Logger
 
 
-Overview:
+**Overview:**
 
 Flight Progress is a lightweight EdgeTX toolset that automatically records flight activity for each model and saves it to a simple text log file on the transmitter’s SD card.
 It tracks when your motor (and optional arm switch) becomes active, logs the flight duration, and stores useful session data such as date, start time, end time, flight duration, maneuver being practiced, model maintenance and crash events. The goal is to give pilots an easy way to review flying time, practice progress, historical totals, and incidents without needing any external software.
