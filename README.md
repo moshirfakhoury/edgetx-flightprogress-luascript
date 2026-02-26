@@ -11,12 +11,12 @@ The system is designed to be fast, safe, and reliable on the radio by using simp
 All logging and configuration happens directly on the transmitter — no PC or external tools required.
 
 
-Included Widgets
+**Included Widgets**
 
 The Flight Progress Lua is a complete package that includes five powerful widgets: Flight Stats, Model Count Comparison, Crash Tracker, Maneuver Tracker, and Maintenance Tracker. Each widget provides clear, real-time insight into your flying activity, progress, reliability, and service status, helping you monitor and manage your model with ease. You can also filter by year to view detailed statistics and history for any specific year.
 
 
-Features:
+**Features:**
 - Automatic flight detection
   Starts and stops logging automatically based on motor and optional arm switch positions. Arm and motor switches and on positions are fully configurable. 
 
@@ -98,7 +98,7 @@ Features:
   All widgets support optional year filtering, allowing you to view statistics for a specific year or lifetime totals.
   
 
-Widgets Overview:
+**Widgets Overview:**
 
 Flight Progress includes five powerful widgets that give you real-time insight into your flying, training, crashes, and maintenance. Each widget reads directly from your model’s Flight Progress log files and updates automatically. These widgets can be added to any EdgeTX screen and customised by year where applicable.
 
@@ -168,7 +168,7 @@ Flight Progress includes five powerful widgets that give you real-time insight i
     Value meanings: 0 = no service due, 2 = service due soon, 1 = service overdue.
 
 
-Data Storage & Performance:
+**Data Storage & Performance:**
 
 Flight Progress stores data separately for each model, ensuring completely independent tracking, maximum performance, and full history preservation. All files are created and managed automatically.
 
@@ -189,7 +189,7 @@ Maneuver Summary File:
 The ModelName_M.txt file stores summarized maneuver data, including total flights, total duration, and the last performed date for each maneuver. This allows the Maneuver Tracker widget to load instantly and display lifetime or yearly maneuver progress without delay.
 
 
-Installation:
+**Installation:**
 - Download the FlightProgressPack ZIP file file
 - Extract the contents of the ZIP file
 - Find the last folder named FlightProgressPack (it contains FlightProgress.lua, fltbg.lua, FlightProgress folder, README.txt and fltprgW1-5 folders)
@@ -199,7 +199,7 @@ Installation:
 - Copy fltprgW1-5 folders and paste into your transmitter's /WIDGETS folder
 - (Optional) If you want to use the included sound file, copy them into SDCard/SOUNDS/en
 
-Transmitter Setup:
+**Transmitter Setup:**
 - Click on the SYS button
 - Navigate to Global Functions 
 - Add a new Function with the below settings
