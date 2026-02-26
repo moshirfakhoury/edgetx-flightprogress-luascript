@@ -169,6 +169,7 @@ Flight Progress includes five powerful widgets that give you real-time insight i
 
 
 Data Storage & Performance:
+
 Flight Progress stores data separately for each model, ensuring completely independent tracking, maximum performance, and full history preservation. All files are created and managed automatically.
 
 
