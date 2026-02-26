@@ -96,10 +96,7 @@ Features:
 
   These widgets provide clear visual insight into flying activity, progress, reliability, and maintenance status.
   All widgets support optional year filtering, allowing you to view statistics for a specific year or lifetime totals.
-
-- Log File Format:
-  - Each line contains: ModelName,Date,StartTime,EndTime,Flight,TimeSeconds,Maneuver,Crash,YTarget,LineType,SrvType
-  - Example: MyModel,2026-02-17,14:32:10,14:38:22,1,372,363,0,200,L,Z
+  
 
 Widgets Overview:
 
