@@ -106,21 +106,21 @@ Flight Progress includes five powerful widgets that give you real-time insight i
 1. Model Stats Widget (fltprgW1)
   The Model Stats widget provides a complete statistical overview of your model’s activity.
   It displays:
-  - Total lifetime flights
-  - Total flight duration
-  - Total crashes
-  - Total services performed
-  - Current year statistics
-  - Previous year statistics
-  - Optional additional year comparison
-  - Flight target progress (% achieved)
-  - Number of maneuvers practiced this year
-  - Maneuvers currently in progress
-  - Bar chart comparing yearly flight totals
-  - Target achievement indicator
-  - Crash percentage indicator
-  - Maneuver count indicator
-  - Date of last fligh
+    - Total lifetime flights
+    - Total flight duration
+    - Total crashes
+    - Total services performed
+    - Current year statistics
+    - Previous year statistics
+    - Optional additional year comparison
+    - Flight target progress (% achieved)
+    - Number of maneuvers practiced this year
+    - Maneuvers currently in progress
+    - Bar chart comparing yearly flight totals
+    - Target achievement indicator
+    - Crash percentage indicator
+    - Maneuver count indicator
+    - Date of last fligh
   The current year flight target is read directly from your radio’s Flight Progress configuration.
   This widget gives you an instant overview of your model’s performance and progress.
 
@@ -132,39 +132,39 @@ Flight Progress includes five powerful widgets that give you real-time insight i
 3. Crash Tracker Widget (fltprgW3)
   The Crash Tracker widget provides a detailed view of your model’s crash history. You can view lifetime totals or filter by a specific year. This makes it easy to spot trends, review recent incidents, and   compare your crash rate year-to-year.
   It displays:
-  - Total number of flights
-  - Total number of crashes, including historical crashes
-  - Crash percentage based on total flights
-  - Current year crash total compared with last year
-  - The date and time of the last 10 crashes, shown in order with the most recent first
+    - Total number of flights
+    - Total number of crashes, including historical crashes
+    - Crash percentage based on total flights
+    - Current year crash total compared with last year
+    - The date and time of the last 10 crashes, shown in order with the most recent first
 
 
 4. Maneuver Tracker Widget (fltprgW4)
   The Maneuver Tracker widget tracks your training progress across all maneuvers. This helps you see how much of your flying is dedicated to structured training. Perfect for pilots working toward certifications    or improving skills.
   It displays:
-  - List of maneuvers performed
-  - Total number of flights per maneuver
-  - Total flight time per maneuver
-  - Crash count per maneuver
-  - Last date each maneuver was flown
-  - Total maneuver flights
-  - Total flights
-  - Practice percentage
+    - List of maneuvers performed
+    - Total number of flights per maneuver
+    - Total flight time per maneuver
+    - Crash count per maneuver
+    - Last date each maneuver was flown
+    - Total maneuver flights
+    - Total flights
+    - Practice percentage
 
 
 5. Maintenance Tracker Widget (fltprgW5)
   The Maintenance Tracker widget helps ensure your model is serviced on time. This helps prevent mechanical failures and keeps your model reliable.
   It tracks:
-  - Last service date / flight number
-  - Service due date / flight number
-  - Days / flights remaining until next service
-  - Total services performed this year and last year
-  - Days since last service
-  - Date of last 3 services
-  - Totals per service typ
-  - Clearly display when service is due or overdue
-  - Supports Date-based or Flight based service tracking
-  - Writes to Global Variable 6 FM0, allowing you to use logical switches and special functions to trigger reminders.
+    - Last service date / flight number
+    - Service due date / flight number
+    - Days / flights remaining until next service
+    - Total services performed this year and last year
+    - Days since last service
+    - Date of last 3 services
+    - Totals per service typ
+    - Clearly display when service is due or overdue
+    - Supports Date-based or Flight based service tracking
+    - Writes to Global Variable 6 FM0, allowing you to use logical switches and special functions to trigger reminders.
     Value meanings: 0 = no service due, 2 = service due soon, 1 = service overdue.
 
 
