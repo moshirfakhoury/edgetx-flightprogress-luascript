@@ -87,7 +87,7 @@ Features:
   Everything runs directly on the radio. No PC, scripts, or external software required.
 
 - Included Widgets:
-  - Flight Progress includes five dedicated widgets:
+  Flight Progress includes five dedicated widgets:
   - Flight Stats
   - Model Count Comparison
   - Crash Tracker
