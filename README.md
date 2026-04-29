@@ -128,7 +128,9 @@ Flight Progress includes five powerful widgets that give you real-time insight i
 
 
 2. Model Comparison Widget (fltprgW2)
-  This widget lets you compare up to 9 models side-by-side. You can view lifetime totals or filter the data by a specific year. All information is read automatically from each model’s Flight Progress log files.
+  A multi-dashboard widget for comparing and analyzing flight data across up to 9 models. View total flight counts, weekly activity, and monthly trends, with optional year filtering or lifetime totals. Includes a bar    chart comparison, weekly/monthly summary, a per-model monthly line graph, and a full monthly data table. Layout is responsive and color-coded for clear, easy reading.
+
+Controls: The LS slider selects the dashboard (comparison, trends, or monthly view). When in the monthly view (LS up), the SH switch toggles between the graph and table display.
 
 
 3. Crash Tracker Widget (fltprgW3)
