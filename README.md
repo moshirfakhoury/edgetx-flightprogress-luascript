@@ -146,16 +146,37 @@ Flight Progress includes five powerful widgets that give you real-time insight i
 
 
 4. Maneuver Tracker Widget (fltprgW4)
-  The Maneuver Tracker widget tracks your training progress across all maneuvers. This helps you see how much of your flying is dedicated to structured training. Perfect for pilots working toward certifications    or improving skills.
-  It displays:
-    - List of maneuvers performed
-    - Total number of flights per maneuver
-    - Total flight time per maneuver
-    - Crash count per maneuver
-    - Last date each maneuver was flown
-    - Total maneuver flights
-    - Total flights
-    - Practice percentage
+
+   The Maneuver Tracker widget tracks your training progress across all maneuvers and models. It helps you monitor structured practice, identify strengths and weaknesses, and visualize your most practiced maneuvers.    Perfect for pilots working toward certifications or improving flying skills.
+
+   The widget includes 3 dashboards:
+
+   Dashboard 1 – Active Model Maneuver Tracker
+
+   - List of maneuvers performed
+   - Total flights per maneuver
+   - Total flight time per maneuver
+   - Crash count per maneuver
+   - Last flown date
+   - Total maneuver flights
+   - Practice percentage
+
+   Dashboard 2 – Maneuver Analytics (All Models)
+
+   - Most practiced maneuver
+   - Least practiced maneuver
+   - Highest crash rate
+   - Neglected maneuvers
+   - Current focus maneuvers
+   - Random recommended next practice
+
+   Dashboard 3 – Top Practiced Maneuvers (All Models)
+
+   - Visual Top 10 maneuver ranking
+   - Horizontal bar graph comparison
+   - Ranked by total maneuver flight count
+
+All dashboards support optional yearly filtering.
 
 
 5. Maintenance Tracker Widget (fltprgW5)
