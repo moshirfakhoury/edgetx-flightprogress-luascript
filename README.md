@@ -259,6 +259,12 @@ Configure the below Steps for each model:
 
 <img width="479" height="272" alt="image" src="https://github.com/user-attachments/assets/7b1d18c2-5bce-48d9-83b0-4411be92fde4" />
 
+<img width="478" height="273" alt="image" src="https://github.com/user-attachments/assets/309240ff-3041-49af-9d43-53ed193ae40b" />
+
+<img width="480" height="273" alt="image" src="https://github.com/user-attachments/assets/56a31971-2230-4419-8c7a-21a9b4f6ea88" />
+
+<img width="478" height="271" alt="image" src="https://github.com/user-attachments/assets/0cfdadc6-b7d6-45e3-b378-6cd579e5df08" />
+
 <img width="484" height="275" alt="image" src="https://github.com/user-attachments/assets/4130498e-6661-4ac6-9d09-4a4c8d641eb1" />
 
 <img width="483" height="276" alt="image" src="https://github.com/user-attachments/assets/bd4dc5e1-49e9-4922-94ef-581841145457" />
