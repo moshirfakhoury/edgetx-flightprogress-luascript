@@ -1,6 +1,6 @@
 **Flight Progress – EdgeTX Flight Logger**
 
-**IMPORTANT: A BUG FIX HAS BEEN APPLIED TO FLTPRGW1 MANEUVERS YTD COUNT CIRCLE - PLEASE DOWNLOAD AND REPLACE FLTPRGW1 WIDGET ON YOUR TRANSMITTER**
+**IMPORTANT: Bug fixes and improvements have been applied to all 5 widgets. It is strongly recommended that you download the latest versions and replace your current widgets to ensure proper functionality and access to the latest enhancements.**
 
 
 **Overview:**
