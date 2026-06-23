@@ -1,7 +1,4 @@
-**Flight Progress – EdgeTX Flight Logger**
-
-**IMPORTANT: Bug fixes and improvements have been applied to all 5 widgets. It is strongly recommended that you download the latest versions and replace your current widgets to ensure proper functionality and access to the latest enhancements.**
-
+**Flight Progress – EdgeTX Flight Logging And Tracking System**
 
 **Overview:**
 
@@ -12,11 +9,85 @@ In addition to live flight logging, the system also supports manual entry of his
 The system is designed to be fast, safe, and reliable on the radio by using simple append-only logging, minimal memory usage, and avoiding any file parsing or heavy processing.
 All logging and configuration happens directly on the transmitter — no PC or external tools required.
 
+-----------------------------------------------------------------------------------------------------
+**V2 Update**
 
-**Included Widgets**
+Flight Progress V2 introduces major improvements, new features, and a much more flexible system architecture.
 
-The Flight Progress Lua is a complete package that includes five powerful widgets: Flight Stats, Model Count Comparison, Crash Tracker, Maneuver Tracker, and Maintenance Tracker. Each widget provides clear, real-time insight into your flying activity, progress, reliability, and service status, helping you monitor and manage your model with ease. You can also filter by year to view detailed statistics and history for any specific year.
+**What's New in V2**
 
+**Dedicated Per-Model Configuration Files**
+
+Flight Progress no longer uses GV6 for configuration. Each model now uses its own dedicated configuration file, making setup easier, freeing up GV6 for other uses, and allowing future features to be added without global variable limitations.
+
+**Custom Maneuver File Support**
+
+Maneuvers are no longer hard-coded into the Lua scripts. They are now loaded from a dedicated text file, making it easy to add, edit, or completely customise maneuvers without modifying Lua code.
+
+**New Maintenance Detail Logging**
+
+Maintenance tracking has been significantly expanded. Previously, only maintenance summaries were recorded. V2 adds a dedicated Maintenance Details system, allowing detailed service records to be logged and reviewed directly on the transmitter.
+Maintenance detail entries now also support user-selectable service dates, allowing maintenance performed in the past to be logged accurately.
+
+**New Budget Tracking System**
+
+A completely new Budget Tracking feature has been added, allowing users to log model-related spending, credits, repairs, maintenance costs, and other expenses directly on the transmitter.
+
+**Enhanced Crash Logging**
+
+Crash logging has been expanded to provide more detailed records. Users can now specify the crash date rather than being restricted to the current date, allowing historical crashes to be logged accurately.
+
+Crash entries can also include a crash reason:
+- Pilot Error
+- Mechanical Fault
+- Electronic Fault
+- Other
+
+**Improved History Entry Validation**
+
+The History Entry system has been enhanced to improve data accuracy and prevent invalid records. History dates now default to the current year and month, reducing setup time and making manual entry easier. Additional validation has also been added to prevent invalid year or month values from being saved, helping ensure clean and reliable historical flight data.
+
+**V2 Widget Dashboards Enhancements**
+
+**Flight Stats Widget (fltprgW1)**
+
+Now includes a Budget Dashboard, allowing you to:
+- View budget history
+- Filter by year
+- Search notes
+- Track total spend and credits
+- Scroll through detailed records directly on the transmitter
+
+**Maintenance Tracker Widget (fltprgW5)**
+
+Now includes a Maintenance Details Dashboard, allowing you to:
+- View full maintenance history
+- Filter by year
+- Search service records
+- Scroll detailed maintenance entries
+- Review service type, operation, and item history
+
+**Crash Tracker Widget (fltprgW3)**
+
+The Crash Tracker Widget has been expanded with a second dashboard, allowing users to switch between the original crash summary view and a new Crash Details dashboard. The new dashboard provides a detailed breakdown of crash causes, including Pilot Error, Mechanical Fault, Electrical Fault, and Other/Historical records, while also allowing users to browse individual crash entries with year filtering and scrolling support directly on the transmitter. This enhancement provides much greater visibility into crash history while remaining fully compatible with existing Flight Progress data files.
+
+**V2 Improvements**
+
+- Easier setup and configuration
+- More expandable architecture for future features
+- Improved data handling and parsing
+- Improved scrolling, searching, and filtering
+- Better dashboard usability and navigation
+- More detailed maintenance and crash records
+- More detailed model tracking and history
+
+**Important**
+
+V2 includes major changes and improvements. It is strongly recommended that all widgets are updated to the latest versions.
+
+-----------------------------------------------------------------------------------------------------
+
+**Original Flight Progress Overview**
 
 **Features:**
 - Automatic flight detection
