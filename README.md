@@ -1,5 +1,7 @@
 **Flight Progress – EdgeTX Flight Logging And Tracking System**
 
+<img width="1138" height="645" alt="image" src="https://github.com/user-attachments/assets/da82f000-1316-4749-9526-7281e292d02e" />
+
 **Overview:**
 
 Flight Progress is a lightweight EdgeTX toolset that automatically records flight activity for each model and saves it to a simple text log file on the transmitter’s SD card.
