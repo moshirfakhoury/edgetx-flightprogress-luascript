@@ -85,6 +85,26 @@ The Crash Tracker Widget has been expanded with a second dashboard, allowing use
 
 V2 includes major changes and improvements. It is strongly recommended that all widgets are updated to the latest versions.
 
+**Installation V2:**
+- Download the Flight Progress - V2 ZIP file
+- Extract the contents of the ZIP file
+- Find the last folder named Flight Progress - V2 (it contains FlightProgress V2.lua, fltbg.lua, FlightProgress folder, fltprgW1-5 folders & 3 WAV files)
+- Copy FlightProgress V2.lua and paste into your transmitter's /SCRIPTS/TOOLS folder
+- Copy FlightProgress folder and paste into your transmitter's /SCRIPTS/TOOLS folder
+- Copy fltbg.lua and paste into your transmitter's /SCRIPTS/FUNCTIONS folder
+- Copy fltprgW1-5 folders and paste into your transmitter's /WIDGETS folder
+- (Optional) If you want to use the included sound file, copy them into SDCard/SOUNDS/en 
+
+**Transmitter Setup:**
+- Click on the SYS button
+- Navigate to Global Functions 
+- Add a new Function with the below settings
+  - Trigger = ON
+  - Function = Lua Script
+  - Value = fltbg
+  - Repeat = On
+  - Enable = True
+
 -----------------------------------------------------------------------------------------------------
 
 **Original Flight Progress Overview**
@@ -288,7 +308,7 @@ The ModelName_M.txt file stores summarized maneuver data, including total flight
 
 
 **Installation:**
-- Download the FlightProgressPack ZIP file file
+- Download the FlightProgressPack ZIP file
 - Extract the contents of the ZIP file
 - Find the last folder named FlightProgressPack (it contains FlightProgress.lua, fltbg.lua, FlightProgress folder, README.txt and fltprgW1-5 folders)
 - Copy FlightProgress.lua and paste into your transmitter's /SCRIPTS/TOOLS folder
