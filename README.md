@@ -61,6 +61,13 @@ V2.1 adds two calendar dashboards to the fltprgW2 widget, giving pilots a visual
 **Installation V2.1:**
 - Same as Flight Progress V2
 
+<img width="478" height="271" alt="image" src="https://github.com/user-attachments/assets/dff3754f-aeed-4d78-83c3-c67006eecd07" />
+
+<img width="481" height="271" alt="image" src="https://github.com/user-attachments/assets/bc220dd8-f232-47ab-b64c-7f5fd5a5c896" />
+
+<img width="480" height="269" alt="image" src="https://github.com/user-attachments/assets/b0c4063b-1add-4fcb-82cf-c1ac5f07e407" />
+
+
 -----------------------------------------------------------------------------------------------------
 
 <img width="1138" height="645" alt="image" src="https://github.com/user-attachments/assets/da82f000-1316-4749-9526-7281e292d02e" />
