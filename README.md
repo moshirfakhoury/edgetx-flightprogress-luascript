@@ -13,7 +13,7 @@ All logging and configuration happens directly on the transmitter — no PC or e
 
 <img width="1194" height="678" alt="image" src="https://github.com/user-attachments/assets/7359cec1-1cc5-4a6a-bf91-bf9b35b1bdd1" />
 
-**V2.1 Update**
+**V2.1 Update - Release Date 24/09/2026**
 
 **What's New in V2.1**
 
@@ -72,7 +72,7 @@ V2.1 adds two calendar dashboards to the fltprgW2 widget, giving pilots a visual
 
 <img width="1138" height="645" alt="image" src="https://github.com/user-attachments/assets/da82f000-1316-4749-9526-7281e292d02e" />
 
-**V2 Update**
+**V2 Update - Release Date 23/06/2026**
 
 Flight Progress V2 introduces major improvements, new features, and a much more flexible system architecture.
 
