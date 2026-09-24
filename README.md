@@ -1,5 +1,55 @@
 **Flight Progress – EdgeTX Flight Logging And Tracking System**
 
+<img width="1194" height="678" alt="image" src="https://github.com/user-attachments/assets/7359cec1-1cc5-4a6a-bf91-bf9b35b1bdd1" />
+
+**V2.1 Update**
+
+**What's New in V2.1**
+
+**1. Configurable Flight Count Time**
+
+In V2.1 the flight count time is no longer hardcoded to 60 seconds. Users can now configure the minimum flight duration directly in the Lua script, allowing them to decide how long a model must be flying before the system counts it as a flight. For example, setting the value to 45 seconds means the system will count the flight once the model has been flying for at least 45 seconds. This gives users greater flexibility to tailor the flight counting behaviour to their preference.
+
+**2. Configurable Maintenance Mode POS Switch**
+
+In V2.1 the Maintenance Mode switch is no longer hardcoded to 6POS5. Users can now configure which 6-position switch setting is used for Maintenance Mode directly from the Flight Progress setup. The selected value is stored in the model’s config file and automatically used by the background script. For example, setting the value to 4 means that 6POS4 will activate Maintenance Mode. Setting the value to 0 disables Maintenance Mode completely, allowing flight logging to operate normally regardless of the 6-position switch. This gives users greater flexibility to choose the switch position that best suits their transmitter setup and preferences.
+
+**3. New Flying Calendar Dashboards**
+
+V2.1 adds two calendar dashboards to the fltprgW2 widget, giving pilots a visual overview of when they flew throughout each month.
+
+- Dashboard 5 – Current Model Calendar
+  - Displays a monthly calendar for the currently selected model.
+  - Highlights days the model was flown and shows the number of flights for each day.
+  - Shows the model's first recorded flight date.
+  - Displays the total flight count and flight hours for the selected month.
+  - Use CH1 to move forwards and backwards through months.
+
+- Dashboard 6 – All Models Calendar
+  - Displays a combined monthly calendar for all configured models.
+  - Highlights days when any configured model was flown and shows the combined number of flights for each day.
+  - Displays the total flight count and flight hours across all models for the selected month.
+  - Use CH1 to move forwards and backwards through months.
+
+**The calendar automatically handles different month lengths, leap years, year changes, multiple flights on the same day, and both individual and combined model flight history.**
+
+**The existing four dashboards remain unchanged, giving fltprgW2 a total of six dashboards:**
+- Dashboard 1 – Model Comparison
+- Dashboard 2 – Weekly / Monthly Comparison
+- Dashboard 3 – Monthly Model Comparison Graph
+- Dashboard 4 – Monthly Model Comparison Data
+- Dashboard 5 – Current Model Calendar
+- Dashboard 6 – All Models Calendar
+
+**Bug Fixes in V2.1**
+
+- Fixed an issue where scrolling in the Crash Details Widget was not functioning correctly.
+- Fixed an issue in the Model Stats Widget where the Last Flight Date was taken from the last row in the file, even when that row had a flight count of 0. The widget now correctly uses the date from the most recent row - with a flight count of 1.
+- Fixed an issue in the Budget Summary Dashboard where the Remaining value overlapped with the "Remaining" label.
+
+**Installation V2:**
+- Same as Flight Progress V2
+
 <img width="1138" height="645" alt="image" src="https://github.com/user-attachments/assets/da82f000-1316-4749-9526-7281e292d02e" />
 
 **Overview:**
