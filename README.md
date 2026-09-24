@@ -1,5 +1,16 @@
 **Flight Progress – EdgeTX Flight Logging And Tracking System**
 
+**Overview:**
+
+Flight Progress is a lightweight EdgeTX toolset that automatically records flight activity for each model and saves it to a simple text log file on the transmitter’s SD card.
+It tracks when your motor (and optional arm switch) becomes active, logs the flight duration, and stores useful session data such as date, start time, end time, flight duration, maneuver being practiced, model maintenance and crash events. The goal is to give pilots an easy way to review flying time, practice progress, historical totals, and incidents without needing any external software.
+Each model automatically maintains its own log file, making it ideal for tracking multiple aircraft independently.
+In addition to live flight logging, the system also supports manual entry of historical flight data so you can backfill previous months or seasons and keep a complete yearly record in one place.
+The system is designed to be fast, safe, and reliable on the radio by using simple append-only logging, minimal memory usage, and avoiding any file parsing or heavy processing.
+All logging and configuration happens directly on the transmitter — no PC or external tools required.
+
+-----------------------------------------------------------------------------------------------------
+
 <img width="1194" height="678" alt="image" src="https://github.com/user-attachments/assets/7359cec1-1cc5-4a6a-bf91-bf9b35b1bdd1" />
 
 **V2.1 Update**
@@ -47,21 +58,13 @@ V2.1 adds two calendar dashboards to the fltprgW2 widget, giving pilots a visual
 - Fixed an issue in the Model Stats Widget where the Last Flight Date was taken from the last row in the file, even when that row had a flight count of 0. The widget now correctly uses the date from the most recent row - with a flight count of 1.
 - Fixed an issue in the Budget Summary Dashboard where the Remaining value overlapped with the "Remaining" label.
 
-**Installation V2:**
+**Installation V2.1:**
 - Same as Flight Progress V2
+
+-----------------------------------------------------------------------------------------------------
 
 <img width="1138" height="645" alt="image" src="https://github.com/user-attachments/assets/da82f000-1316-4749-9526-7281e292d02e" />
 
-**Overview:**
-
-Flight Progress is a lightweight EdgeTX toolset that automatically records flight activity for each model and saves it to a simple text log file on the transmitter’s SD card.
-It tracks when your motor (and optional arm switch) becomes active, logs the flight duration, and stores useful session data such as date, start time, end time, flight duration, maneuver being practiced, model maintenance and crash events. The goal is to give pilots an easy way to review flying time, practice progress, historical totals, and incidents without needing any external software.
-Each model automatically maintains its own log file, making it ideal for tracking multiple aircraft independently.
-In addition to live flight logging, the system also supports manual entry of historical flight data so you can backfill previous months or seasons and keep a complete yearly record in one place.
-The system is designed to be fast, safe, and reliable on the radio by using simple append-only logging, minimal memory usage, and avoiding any file parsing or heavy processing.
-All logging and configuration happens directly on the transmitter — no PC or external tools required.
-
------------------------------------------------------------------------------------------------------
 **V2 Update**
 
 Flight Progress V2 introduces major improvements, new features, and a much more flexible system architecture.
